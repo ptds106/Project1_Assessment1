@@ -1,0 +1,24 @@
+#plus{
+    position: absolute;
+    display: inline;
+    top: 100px;
+    left: 300px;
+}
+#number{
+    position: absolute;
+    top: 100px;
+    display: inline;
+    left: 250px;
+}
+#minus{
+    position: absolute;
+    top: 100px;
+    display: inline;
+    left: 200px;
+}
+#input{
+    position: absolute;
+    top: 150px;
+    display: inline;
+    left: 200px;
+}
