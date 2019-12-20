@@ -9,20 +9,17 @@ const input = document.getElementById('input')
 number.textContent = numb;
 
 plus.addEventListener("click", () => {
+    number.style.color = 'black';
     numb += Number(input.value)
     number.textContent = numb;
     if(numb < 0) {
         number.style.color = 'red';
-    } else {
-        number.style.color = 'black';
-    }
+     } 
 });
 minus.addEventListener("click", () => {
     numb -= Number(input.value)
     number.textContent = numb;
     if(numb < 0) {
         number.style.color = 'red';
-    } else {
-    number.style.color = 'black';
     }
 });
